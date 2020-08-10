@@ -1,0 +1,11 @@
+language: python
+dist: bionic
+
+addons:
+  apt:
+    packages:
+      - python3.7 python3-pip python3-setuptools
+
+script:
+  - './setup.sh'
+
